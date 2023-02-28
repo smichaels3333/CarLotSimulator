@@ -12,8 +12,8 @@ namespace CarLotSimulator
         //Done Car shall have the following methods: MakeEngineNoise(), MakeHonkNoise()
         //The methods should take one string parameter: the respective noise property
         public Car() 
-        { 
-
+        {
+            CarLot.numberOfCars++;
         }
 
         public Car(int year, string make, string model, string engineNoise, string honkNoise, bool isDriveable)
